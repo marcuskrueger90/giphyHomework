@@ -1,0 +1,17 @@
+.recentResults{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.wrap-buttons{
+    border: 1px solid lightcoral;
+    margin-left: .5em;
+    margin-bottom: 1em;
+    border-radius: .5em;
+}
+
+.btn-delete{
+    border-left: 1px solid black;
+}
