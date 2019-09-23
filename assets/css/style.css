@@ -6,7 +6,8 @@
 }
 
 .wrap-buttons{
-    border: 1px solid lightcoral;
+    border: 1px solid black;
+    background-color: lightcoral;
     margin-left: .5em;
     margin-bottom: 1em;
     border-radius: .5em;
@@ -14,4 +15,27 @@
 
 .btn-delete{
     border-left: 1px solid black;
+}
+.giphyContent{
+    column-count: 3;
+    column-gap: 1em;
+}
+.giphy {
+    border: 1px solid black;
+    border-radius: .5em;
+    border-bottom: .5em solid #ff4893;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-bottom: .5em;
+    page-break-inside: avoid;
+    background-color: #fff1e9;
+    box-shadow: 9px 20px 10px rgba(0,0,0,0.5);
+}
+
+.giphy img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
 }
